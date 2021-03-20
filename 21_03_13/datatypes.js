@@ -1,15 +1,10 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable use-isnan */
-/* eslint-disable linebreak-style */
 /* eslint-disable no-self-compare */
-/* eslint-disable linebreak-style */
 /* eslint-disable eqeqeq */
-/* eslint-disable linebreak-style */
 /* eslint-disable no-redeclare */
-/* eslint-disable linebreak-style */
 /* eslint-disable no-use-before-define */
 /* eslint-disable eol-last */
-/* eslint-disable linebreak-style */
 /* eslint-disable vars-on-top */
 /* eslint-disable no-var */
 // var c = 5;
@@ -105,6 +100,8 @@
 // console.log(typeof NaN);
 
 // number
-console.log(NaN == NaN); // false
-console.log(NaN === NaN); // false
-console.log(typeof NaN); // number
+// console.log(NaN == NaN); // false
+// console.log(NaN === NaN); // false
+// console.log(typeof NaN); // number
+
+// console.log(025 == 21); // başına 0 gelirse 8lik tabanda alıyor
