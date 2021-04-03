@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & JavaScript</title>
+</head>
+<body>
+        <input type="radio" name="rate" id="a">1
+    <input type="radio" name="rate" id="s" value="2">2
+    <input type="radio" name="rate" id="d">3
+    <input type="radio" name="rate" id="f">4
+    <input type="radio" name="rate" id="g">5
+    
+
+    <button id="btnRate">click me</button>
+    
+    <script>
+        let btn = document.getElementById('btnRate');
+        btn.addEventListener('click', () => {
+            let rates = document.getElementsByName('rate')
+            rates.forEach((rate) => {
+                if(rate.checked) {
+                    console.log(`your element is ${rate.value}`)
+                }
+            });
+        })
+    </script>
+</body>
+</html>
